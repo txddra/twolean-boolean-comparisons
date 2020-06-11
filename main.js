@@ -7,7 +7,7 @@ function moreThan5(num){
 }
 
 function topScore(top, score){
-return top > score;
+  return top > score;
 
 }
 
@@ -17,7 +17,12 @@ function isInDanger(grade){
 }
 
 function isCoasting(grade){
-return grade >= 72 && grade <= 83
+  return grade >= 72 && grade <= 83;
+}
+
+function isSucceeding(grade){
+  return grade >= 84 && grade <= 92;
+
 }
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
