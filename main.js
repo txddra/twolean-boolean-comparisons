@@ -2,12 +2,23 @@
  * YOUR CODE BELOW! *
  ********************/
 function moreThan5(num){
-  return num > 5
-;}
+  return num > 5;
 
+}
 
+function topScore(top, score){
+return top > score;
 
+}
 
+function isInDanger(grade){
+  return grade >= 60 && grade <= 71;
+
+}
+
+function isCoasting(grade){
+return grade >= 72 && grade <= 83
+}
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
@@ -59,8 +70,8 @@ if (typeof isElementary === 'undefined') {
   isElementary = undefined;
 }
 
-if (typeof differentPeople === 'undefined') {
-  differentPeople = undefined;
+if (typeof areDifferentPeople === 'undefined') {
+  areDifferentPeople = undefined;
 }
 
 if (typeof notAnElementarySchoolAdministrator === 'undefined') {
@@ -84,7 +95,7 @@ module.exports = {
   isTeacher,
   isAdmin,
   isElementary,
-  differentPeople,
+  areDifferentPeople,
   notAnElementarySchoolAdministrator,
   isMiddleSchoolTeacher,
 }
