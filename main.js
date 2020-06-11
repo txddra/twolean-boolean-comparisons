@@ -1,7 +1,9 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
-
+function moreThan5(num){
+  return num > 5
+;}
 
 
 
