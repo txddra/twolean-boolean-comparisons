@@ -33,10 +33,18 @@ function isFailing(grade){
 
 function isAcing(grade){
   return grade > 92;
-  
+
 }
 
+function isStudent(role){
+  return role === 'student';
 
+}
+
+function isTeacher(role){
+return role === 'teacher';
+
+}
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
