@@ -42,9 +42,19 @@ function isStudent(role){
 }
 
 function isTeacher(role){
-return role === 'teacher';
+  return role === 'teacher';
 
 }
+
+function isAdmin(role){
+  return role === 'admin';
+
+}
+
+function isElementary(schoolLevel){
+  return schoolLevel === 'elementary'
+}
+
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
