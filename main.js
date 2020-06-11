@@ -63,7 +63,11 @@ function areDifferentPeople(name, name2){
 
 function isMiddleSchoolTeacher(role, level){
   return role === 'teacher' && level >= 6 && level <=8;
-  
+
+}
+
+function notAnElementarySchoolAdministrator(level, role){
+  return level !== 'elementary' || role !== 'admin'
 }
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
