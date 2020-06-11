@@ -52,9 +52,19 @@ function isAdmin(role){
 }
 
 function isElementary(schoolLevel){
-  return schoolLevel === 'elementary'
+  return schoolLevel === 'elementary';
+
 }
 
+function areDifferentPeople(name, name2){
+  return name !== name2;
+
+}
+
+function isMiddleSchoolTeacher(role, level){
+  return role === 'teacher' && level >= 6 && level <=8;
+  
+}
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
